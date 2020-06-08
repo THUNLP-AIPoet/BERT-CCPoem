@@ -58,7 +58,7 @@ outputs, _ = model(input_ids)
 sen_emb = torch.mean(outputs, 1)[0] # This is the vector representation of "一行白鹭上青天"
 ```
 
-**Note** You may check out the sample programs [gen\_vec\_rep.py](https://github.com/THUNLP-AIPoet/PretrainedModels/blob/master/BERT-CCPoem/gen_vec_rep.py) we offer.
+**Note** You may check out the sample programs [gen\_vec\_rep.py](https://github.com/THUNLP-AIPoet/BERT-CCPoem/gen_vec_rep.py) we offer.
 
 #### Requirement.txt
 
@@ -71,7 +71,7 @@ transformers>=2.5.1
 
 We makes BERT-CCPoem available to research free of charge provided the proper reference is made using an appropriate citation.
 
-When writing a paper or producing a software application, tool, or interface based on BERT-CCPoem, it is necessary to properly acknowledge using BERT-CCPoem as **“We use BERT-CCPoem, a pre-trained model for Chinese classical poetry, developed by Research Center for Natural Language Processing, Computational Humanities and Social Sciences, Tsinghua University, to ……”** and cite the GitHub website "https://github.com/THUNLP-AIPoet/PretrainedModels/tree/master/BERT-CCPoem". 
+When writing a paper or producing a software application, tool, or interface based on BERT-CCPoem, it is necessary to properly acknowledge using BERT-CCPoem as **“We use BERT-CCPoem, a pre-trained model for Chinese classical poetry, developed by Research Center for Natural Language Processing, Computational Humanities and Social Sciences, Tsinghua University, to ……”** and cite the GitHub website "https://github.com/THUNLP-AIPoet/BERT-CCPoem". 
 
 
 ### Contributors
