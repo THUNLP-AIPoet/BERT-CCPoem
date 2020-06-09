@@ -76,9 +76,9 @@ When writing a paper or producing a software application, tool, or interface bas
 
 ### Contributors
 
-**Professor:** Maosong Sun
+**Professor:** Maosong Sun(孙茂松)
 
-**Students:** Zhipeng Guo, Jinyi Hu
+**Students:** Zhipeng Guo(郭志芃), Jinyi Hu(胡锦毅)
 
 ### Contact Us
 
