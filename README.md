@@ -28,7 +28,7 @@ The following is the top 10 mostly likely sentences given by the string matching
 
 ### Model details
 
-We use "BertModel" class in the open source project Transformers to train our model. BERT-CCPoem is fully based on CCPC1.0, and takes Chinese character as basic unit. Characters with frequency less than 3 is treated as [UNK], resulting in a vocabulary of 11, 809 character types.
+We use "BertModel" class in the open source project Transformers to train our model. BERT-CCPoem is fully based on CCPC-Full v1.0, and takes Chinese character as basic unit. Characters with frequency less than 3 is treated as [UNK], resulting in a vocabulary of 11, 809 character types.
 
 The parameters of BERT-CCPoem are listed as follows: 
 
