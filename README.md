@@ -19,7 +19,7 @@ A typical application is, you can use vector representation derived from BERT-CC
 The following is the top 10 mostly likely sentences given by the string matching algorithm, for comparison:
 
 |Rank	|Poem sentence|	Rank	|Poem sentence|
-| ------------ | ------|--------- |  -------- | 
+| ------------ | ------|--------- |  -------- |
 |1|	数行白鹭横青湖 | 6	|一行白鹭渺秋烟|
 |2	|一片青天白鹭前|	7|	一行白鹭引舟行|
 |3|	一行飞鸟来青天|	8	|一行白鹭过前山|
@@ -64,7 +64,7 @@ sen_emb = torch.mean(outputs, 1)[0] # This is the vector representation of "一�
 
 ```
 torch>=1.2.0
-transformers>=2.5.1
+transformers==2.5.1
 ```
 
 ### Acknowledging and Citing BERT-CCPoem
