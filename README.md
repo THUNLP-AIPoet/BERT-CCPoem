@@ -64,7 +64,7 @@ sen_emb = torch.mean(outputs, 1)[0] # This is the vector representation of "ä¸€è
 
 ```
 torch>=1.2.0
-transformers==2.5.1
+transformers==4.3.3
 ```
 
 ### Acknowledging and Citing BERT-CCPoem

@@ -25,9 +25,9 @@ class Bert(nn.Module):
         result = []
         # print(data)
         x = data['input_ids']
-        y, _ = self.bert(x, attention_mask=data['attention_mask'],
-                         token_type_ids=data['token_type_ids'])
-
+        y = self.bert(x, attention_mask=data['attention_mask'],
+                         token_type_ids=data['token_type_ids'])[0]
+        
         if(cls):
             result = y[:, 0, :].view(y.size(0), -1)
             result = result.cpu().tolist()
